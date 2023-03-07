@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+<picture>
+<source media="(max-width: 650px )" srcset="foto.p.png" type="image/png">
+<source media="(max-width: 900px)" srcset="foto.m.png" type="image/png">
+<img src="foto.g.png" alt="imagem flexível">
+</picture>
+
+<h2>Colocando áudio no meu site</h2>
+
+<audio preload="metadata" autoplay controls>
+<source src="emotional.music.mp3.mp3" type="audio/mpeg">
+<source src="emotional.music.mp3.mp3" type="audio/ogg">
+<source src="emotional.music.mp3.mp3" type="audio/wav">
+<p>Infelizmente seu navegador não consegue reproduzier o áudio. <a href="emotional.music.mp3.mp3"> Clique aqui para fazer o download do arquivo</a></p>
+</audio>
+
+<h2>Podemos colocar um vídeo do YouTube no meu site</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K9F0mNRJGjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2>Podemos colocar um vídeo do Vimeo no meu site</h2>
+<iframe src="https://player.vimeo.com/video/736065868?h=4ccbe9d46b" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Podemos colocar vídeos com hospendagem própria</h2>
+<video width="500" controls>
+<source src="Marvideo.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
+</body>
+</html>
